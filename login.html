@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+
+    <div class="block">
+        <img src="./img/minilogo3.png" alt="img cliente">
+    </div>
+
+    <div class="login">
+        <div class="title">
+            <br>
+            <h2>Entrar</h2>
+        </div>
+
+        <form action="./php/ctr_login.php" method="post">
+            <label for="user_email" class="email-user">Email do usuário:</label>
+            <input type="email" name="user_email" id="user_email" class="email-input" required>
+            <label for="user_password" class="password-user">Senha de usuário:</label>
+            <input type="password" name="user_password" id="user_password" class="password-input" required>
+            <button type="submit" class="btn">Entrar</button>
+        </form>
+
+    </div>
+    
+
+</body>
+
+</html>
