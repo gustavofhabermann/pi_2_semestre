@@ -1,8 +1,8 @@
 :root{
     /* Main */
-    --cor-fundo-main: #412416;
-    --cor-fundo-segundaria: #eed9b9;
-    --cor-fundo-button: #472323;
+    --cor-fundo-main: #201814;
+    --cor-fundo-segundaria: #f5efe7;
+    --cor-fundo-button: #5f2323;
     --cor-fundo-button-hover: #231111;
     --cor-font-main: #ffffff;
     --cor-quit-hover: #D3AD82;
@@ -19,8 +19,8 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px auto;
+    padding: 0px auto;
     background-color: var(--cor-fundo-main);
 }
 
@@ -34,6 +34,7 @@ h1 {
     font-style: bold;
     color: var(--cor-font-main);
 }
+
 .hamburger{
     font-size: var(--font-size-main);
     padding: .5rem;
@@ -101,10 +102,11 @@ li {
 .tools ul{
     flex-direction: column;
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-left: 0px;
 }
 
 .box{
@@ -113,11 +115,10 @@ li {
     display: flex;
     background-color: var(--cor-fundo-button);
     color: var(--cor-font-main);
-    margin-top: 2.0rem;
+    margin-top: 1rem;
     width: 9vw;
-    height: 9vh;
+    height: 8vh;
     justify-content: center;
-    margin-left: -3.4rem;
     text-decoration: none;
     border: 2px solid var(--cor-fundo-button);
     font-size: var(--font-size-button);
@@ -125,7 +126,7 @@ li {
 }
 
 .first {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .box:hover{
